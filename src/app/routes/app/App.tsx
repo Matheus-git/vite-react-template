@@ -1,7 +1,7 @@
-import "./App.css";
+import { ContentLayout } from "@/components/layouts";
 
-function App() {
-  return <>oi</>;
-}
+const App = () => {
+  return <ContentLayout title="Users">Oi</ContentLayout>;
+};
 
 export default App;
